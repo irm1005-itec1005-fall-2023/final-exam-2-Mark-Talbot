@@ -28,6 +28,7 @@
  * }
  */
 
+
  html {
   font-size: 1.0rem;
 }
@@ -38,6 +39,512 @@ body {
   background-color: #f7ead7;
 }
 
+.container{
+  width: 700px;
+    margin: 0 auto;
+}
+
+header{
+  width: 100%;
+
+  padding: 2rem 0 2rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img{
+  width:50px ; 
+  background-color: rgb(41, 34, 86);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 34, 86) ;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+  nav ul li a:hover{
+    color: rgb(192, 214, 48);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s all ease-in;
+}
+
+h1{
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 0.5rem;
+  font-weight: 800;
+}
+@media screen and (min-width: 800px) {
+.content-grid{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); 
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.Web-Development{
+  background-color: aqua;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.UI-UX{
+  background-color: aquamarine;
+  height: 100%;
+  grid-column-start: 3;
+}
+
+
+
+
+
+.amy-container{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  align-items: center;
+}
+
+.amy-picture{
+  padding-right: 1rem;
+}
+
+.amy-picture img{
+  border-radius: 1rem;
+}
+
+.amy-text{
+  padding-left: 1rem;
+}
+
+.amy-text h2{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.amy-text p{
+  font-size: smaller;
+}
+
+.amy-text ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.amy-text ul li a:hover{
+    color: rgb(192, 214, 48);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s all ease-in;
+}
+
+.top-container{
+  display:flex;
+
+}
+
+.my-work{
+  margin: 3rem;
+  text-align: center;
+}
+
+.media-queries-container{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.media-queries-container img{
+  width: 300px;
+  border-radius: 1rem;
+}
+.mq-text{
+  padding-top: 1rem;
+}
+
+.mq-text ul{
+  display: flex;
+}
+
+.mq-text ul li{
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.mq-text ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.mq-text ul li a:hover{
+    color: rgb(192, 214, 48);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s all ease-in;
+}
+
+
+.Binary-Beans-container{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.Binary-Beans-container img{
+  width: 300px;
+  border-radius: 1rem;
+}
+.BB-text{
+  padding-top: 1rem;
+}
+
+.BB-text ul{
+  display: flex;
+}
+
+.BB-text ul li{
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.BB-text ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.BB-text ul li a:hover{
+    color: rgb(192, 214, 48);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s all ease-in;
+}
+
+.bottom-container{
+  display:flex;
+
+}
+
+.student-database-container{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.student-database-container img{
+  width: 300px;
+  border-radius: 1rem;
+}
+.sd-text{
+  padding-top: 1rem;
+}
+
+.sd-text ul{
+  display: flex;
+}
+
+.sd-text ul li{
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.sd-text ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.sd-text ul li a:hover{
+    color: rgb(192, 214, 48);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s all ease-in;
+}
+
+
+.Pokemon-container{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.Pokemon-container img{
+  width: 300px;
+  border-radius: 1rem;
+}
+.p-text{
+  padding-top: 1rem;
+}
+
+.p-text ul{
+  display: flex;
+}
+
+.p-text ul li{
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.p-text ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.p-text ul li a:hover{
+    color: rgb(192, 214, 48);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s all ease-in;
+}
+}
+
+.content-grid{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); 
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.Web-Development{
+  background-color: aqua;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.UI-UX{
+  background-color: aquamarine;
+  height: 100%;
+  grid-column-start: 3;
+}
+
+
+
+
+
+.amy-container{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  align-items: center;
+}
+
+.amy-picture{
+  padding-right: 1rem;
+}
+
+.amy-picture img{
+  border-radius: 1rem;
+}
+
+.amy-text{
+  padding-left: 1rem;
+}
+
+.amy-text h2{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.amy-text p{
+  font-size: smaller;
+}
+
+.amy-text ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.amy-text ul li a:hover{
+    color: rgb(192, 214, 48);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s all ease-in;
+}
+
+.top-container{
+  display:flex;
+
+}
+
+.my-work{
+  margin: 3rem;
+  text-align: center;
+}
+
+.media-queries-container{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.media-queries-container img{
+  width: 300px;
+  border-radius: 1rem;
+}
+.mq-text{
+  padding-top: 1rem;
+}
+
+.mq-text ul{
+  display: flex;
+}
+
+.mq-text ul li{
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.mq-text ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.mq-text ul li a:hover{
+    color: rgb(192, 214, 48);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s all ease-in;
+}
+
+
+.Binary-Beans-container{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.Binary-Beans-container img{
+  width: 300px;
+  border-radius: 1rem;
+}
+.BB-text{
+  padding-top: 1rem;
+}
+
+.BB-text ul{
+  display: flex;
+}
+
+.BB-text ul li{
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.BB-text ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.BB-text ul li a:hover{
+    color: rgb(192, 214, 48);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s all ease-in;
+}
+
+.bottom-container{
+  display:flex;
+
+}
+
+.student-database-container{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.student-database-container img{
+  width: 300px;
+  border-radius: 1rem;
+}
+.sd-text{
+  padding-top: 1rem;
+}
+
+.sd-text ul{
+  display: flex;
+}
+
+.sd-text ul li{
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.sd-text ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.sd-text ul li a:hover{
+    color: rgb(192, 214, 48);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s all ease-in;
+}
+
+
+.Pokemon-container{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.Pokemon-container img{
+  width: 300px;
+  border-radius: 1rem;
+}
+.p-text{
+  padding-top: 1rem;
+}
+
+.p-text ul{
+  display: flex;
+}
+
+.p-text ul li{
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.p-text ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.p-text ul li a:hover{
+    color: rgb(192, 214, 48);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s all ease-in;
+}
 /*
  * SR-ONLY
  */
